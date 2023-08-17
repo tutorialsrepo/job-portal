@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Portal Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <section>
+        <header class="header-section">
+          <div class="logo" style="margin-left: 20px">
+            <a href="#">Job Finder</a>
+          </div>
+
+          <ul class="nav-links" style="margin-right: 20px">
+            <li class="nav-item active"><a href="#home-div">Home</a></li>
+            <li class="nav-item">
+              <a href="#top-companys-div">Top company</a>
+            </li>
+            <li class="nav-item"><a href="#Jobs-div">Jobs</a></li>
+            <li class="login-menu nav-item">
+              <a href="#login-div" style="color: white">Login</a>
+            </li>
+            <li class="signup-menu nav-item">
+              <a href="#logout-div">Sign up</a>
+            </li>
+          </ul>
+        </header>
+      </section>
+
+      <section id="home-div">
+        <div class="home-div">
+          <div>
+            <img
+              class="bg-img"
+              src="https://media.foundit.in/trex/public/theme_3/dist/images/hero-section-desktop-guest.svg?8dbf3342cdc95b7e85dd4f4eec12fc75"
+              alt="bg"
+              width="100%"
+            />
+          </div>
+          <div>
+            <div style="text-align: center" class="home-second-div">
+              <div>
+                <h2 class="search-title">Find The Best And Heigh Paid Jobs</h2>
+              </div>
+              <div class="search-input-div">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input
+                  type="search"
+                  name="search"
+                  class="search-input"
+                  placeholder="Enter Skills / Designations / Companies..."
+                />
+                <button class="search-button">Search</button>
+              </div>
+            </div>
+          </div>
+          <div class="third-home">
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/remoteonetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40px"
+              />
+              <span><b>Remote</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/mnconetheme.svg"
+                alt="mnc"
+                width="50px"
+                height="40p"
+              />
+              <span><b>MNC</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/hronetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>HR</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/internshiponetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>internship</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/financeonetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>Banking & Finance</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/analyticsonetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>Analytics</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/salesonetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>Sales</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/marketingonetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>Marketing</b></span>
+              &nbsp;&nbsp;&nbsp;
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+
+            <div
+              class="job-types"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 180px;
+              "
+            >
+              <img
+                src="https://static.naukimg.com/s/0/0/i/trending-naukri/data-scienceonetheme.svg"
+                alt="remote"
+                width="50px"
+                height="40p"
+              />
+              <span><b>Data Science</b></span>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/trending-naukri-wdgt/v16/assets/arrow.2b55815e.svg"
+                alt="arrow"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="top-companys-div">
+        <div class="top-companys-div">
+          <h1 class="text-center">Top Companies In the world</h1>
+          <div class="top-companys-list-div">
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/214440.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>Reliance Retail</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span>4.2
+                |<i> 13.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>One of India's Top 50 Workplace In 2023</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/2095704.gif"
+                alt="img2"
+              />
+              <div class="review-details">
+                <span><b>Jio</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span> 4.0
+                |<i> 4.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>India's Largest 4G & 5G network Provider</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/44512.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>ICICI Bank</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span> 4.0
+                |<i> 23.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>Lending pvt Bank</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/4156.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>Cognizant</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span>3.9
+                |<i> 23.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>Lengin IteS Company 2023</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/214440.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>Reliance Retail</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span>
+                |<i> 13.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>One of India's Top 50 Workplace In 2023</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/315118.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>Datametics</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span>3.6
+                |<i> 10.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>Global Digital Company In 2023</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/233334.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>Rel High CTC</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span>
+                |<i> 9.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>REL oil Industry of China and America</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+
+            <div class="Companies-lists card">
+              <img
+                src="https://img.naukimg.com/logo_images/groups/v2/41608.gif"
+                alt="img1"
+              />
+              <div class="review-details">
+                <span><b>ABC LTD</b></span> <br />
+                <span class="fa fa-star checked" style="color: gold"></span> 2.9
+                |<i> 13.3K+ reviews</i>
+              </div>
+              <div class="notes">
+                <p>ABC Top World company</p>
+              </div>
+              <div class="view-jobs">
+                <button><b>View Jobs</b></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Jobs-div">
+        <h1 class="text-center">Top Jobs</h1>
+        <div class="Jobs-div-lists">
+          <div class="job-list card">
+            <div style="display: flex">
+              <img
+                src="https://dynamic.placementindia.com/recruiter_comp_logo/632299_20200918090014.jpg"
+                alt="job1"
+                width="70px"
+              />
+              <div style="display: flex; flex-direction: column">
+                <span> <b>SoftWare Engineer</b></span>
+                <span>Hai Group of Company</span>
+              </div>
+            </div>
+            <div class="skil-batch">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div class="actionBtn">
+              <button><b>Apply</b></button>
+              <button><b>Save Job</b></button>
+            </div>
+          </div>
+
+          <div class="job-list card">
+            <div style="display: flex">
+              <img
+                src="https://dynamic.placementindia.com/recruiter_comp_logo/632299_20200918090014.jpg"
+                alt="job1"
+                width="70px"
+              />
+              <div style="display: flex; flex-direction: column">
+                <span> <b>SoftWare Engineer</b></span>
+                <span>Hai Group of Company</span>
+              </div>
+            </div>
+            <div class="skil-batch">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div class="actionBtn">
+              <button><b>Apply</b></button>
+              <button><b>Save Job</b></button>
+            </div>
+          </div>
+
+          <div class="job-list card">
+            <div style="display: flex">
+              <img
+                src="https://dynamic.placementindia.com/recruiter_comp_logo/632299_20200918090014.jpg"
+                alt="job1"
+                width="70px"
+              />
+              <div style="display: flex; flex-direction: column">
+                <span> <b>SoftWare Engineer</b></span>
+                <span>Hai Group of Company</span>
+              </div>
+            </div>
+            <div class="skil-batch">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div class="actionBtn">
+              <button><b>Apply</b></button>
+              <button><b>Save Job</b></button>
+            </div>
+          </div>
+
+          <div class="job-list card">
+            <div style="display: flex">
+              <img
+                src="https://dynamic.placementindia.com/recruiter_comp_logo/632299_20200918090014.jpg"
+                alt="job1"
+                width="70px"
+              />
+              <div style="display: flex; flex-direction: column">
+                <span> <b>SoftWare Engineer</b></span>
+                <span>Hai Group of Company</span>
+              </div>
+            </div>
+            <div class="skil-batch">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div class="actionBtn">
+              <button><b>Apply</b></button>
+              <button><b>Save Job</b></button>
+            </div>
+          </div>
+
+          <div class="job-list card">
+            <div style="display: flex">
+              <img
+                src="https://dynamic.placementindia.com/recruiter_comp_logo/632299_20200918090014.jpg"
+                alt="job1"
+                width="70px"
+              />
+              <div style="display: flex; flex-direction: column">
+                <span> <b>SoftWare Engineer</b></span>
+                <span>Hai Group of Company</span>
+              </div>
+            </div>
+            <div class="skil-batch">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div class="actionBtn">
+              <button><b>Apply</b></button>
+              <button><b>Save Job</b></button>
+            </div>
+          </div>
+
+          <div class="job-list card">
+            <div style="display: flex">
+              <img
+                src="https://dynamic.placementindia.com/recruiter_comp_logo/632299_20200918090014.jpg"
+                alt="job1"
+                width="70px"
+              />
+              <div style="display: flex; flex-direction: column">
+                <span> <b>SoftWare Engineer</b></span>
+                <span>Hai Group of Company</span>
+              </div>
+            </div>
+            <div class="skil-batch">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Javascript</span>
+            </div>
+            <div class="actionBtn">
+              <button><b>Apply</b></button>
+              <button><b>Save Job</b></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <footer>
+          <p>&copy; Copyright 2023 Job Finder Pvt.Ltd. All Right Reserved.</p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
